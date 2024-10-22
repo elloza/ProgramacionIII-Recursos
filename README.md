@@ -55,3 +55,31 @@ public class App {
     }
 }
 ```
+
+# Otros recursos
+
+## Java Source Code 2 PlantUML
+
+Utilidad para generar diagramas de clases PlantUML (puml) a partir de código fuente Java.
+
+Los creadores de la utilidad y el proyecto original se encuentran en:
+
+[feitosa-daniel/java2umltext](https://github.com/sealedtx/java-youtube-downloader)
+
+Dejad una estrella a su repositorio si os ha sido útil.
+
+Descarga del JAR: [java2umltext-0.1.0.jar](https://github.com/feitosa-daniel/java2umltext/releases/download/v0.1.0/java2umltext-0.1.0.jar)
+
+Ejemplo de uso por línea de comandos:
+
+```bash
+java -jar java2umltext-0.1.0.jar -m private -m public -m protected -m default -f private -f public -f protected -f default --package -o="./output.puml" PLANTUML "./Ejemplo/src/"
+```
+
+Siendo `./Ejemplo/src/` la ruta al directorio que contiene el código fuente Java.
+Siendo `./output.puml` la ruta al fichero de salida con el codigo PlantUML del diagrama de clases.
+
+Para ver más información sobre los parámetros utilizados consultad la documentación [aquí](https://github.com/feitosa-daniel/java2umltext?tab=readme-ov-file#usage)
+
+El código generado puede ser pegado en el [Editor Online de PlantUML](https://www.plantuml.com/plantuml/uml/) para visualizar el diagrama de clases.
+
