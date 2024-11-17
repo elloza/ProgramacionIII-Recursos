@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "c:\\Users\\Loza\\Desktop\\ProgramacionIII-Recursos-1\\notionsdkexample\\lib\\notion-sdk-jvm-core-1.11.2-SNAPSHOT.jar",
+        "lib/notion-sdk-jvm-core-1.11.2.jar",
+        "lib/notion-sdk-jvm-core-1.11.1.jar"
+    ]
+}
