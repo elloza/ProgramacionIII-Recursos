@@ -68,6 +68,18 @@ Descarga: [notion-sdk-jvm-core-1.11.1.jar](https://github.com/elloza/Programacio
 
 Este jar se ha generado con fines educativos y para facilitar el uso de la API de Notion en los ejercicios de la asignatura. En un proyecto real, se recomienda añadir la dependencia a través de Maven o Gradle del repositorio original.
 
+## Notion SDK Java
+
+Biblioteca para acceder a la API de Notion desde Java. Se ha incluido toda la biblioteca en un solo JAR para facilitar su uso en los ejercicios.
+
+Biblioteca Original: [Notion SDK](https://github.com/seratch/notion-sdk-jvm/tree/main)
+
+Revise el proyecto `notion-sdk-example` de este repositorio para ver un ejemplo de uso y todos los requisitos necesarios para poder utilizar la API de Notion.
+
+Descarga: [notion-sdk-jvm-core-1.11.1.jar](https://github.com/elloza/ProgramacionIII-Recursos/raw/main/jars/notion-sdk-jvm-core-1.11.1.jar)
+
+Este jar se ha generado con fines educativos y para facilitar el uso de la API de Notion en los ejercicios de la asignatura. En un proyecto real, se recomienda añadir la dependencia a través de Maven o Gradle del repositorio original.
+
 # Otros recursos
 
 ## Java Source Code 2 PlantUML
