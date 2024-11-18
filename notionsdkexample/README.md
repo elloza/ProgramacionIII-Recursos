@@ -53,7 +53,7 @@ Estos métodos aseguran que los datos se transformen correctamente entre el form
    - `Nombre`: Text
    - `Apellidos`: Text
    - `Edad`: Number
-   - `Año de Nacimiento`: String
+   - `Año de Nacimiento`: Date
    - `Carnet de Conducir`: Checkbox
      
    En la imagen anterior es posible ver cómo añadir una nueva property (columna) y determina su tipo (Type). LLamada Nombre y de Type Text en este caso.
