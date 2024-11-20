@@ -65,7 +65,7 @@ Estos métodos aseguran que los datos se transformen correctamente entre el form
 6. Por último será necesario contar los siguientes parámetros:   
    1. **API\_KEY** obtenida en el paso 2\.  
    2. **DATABASE\_ID**: esta es posible obtenerla desde la URL de la Page que habéis creado. Es el valor alfanumérico de esta forma:  
-      https://www.notion.so/\<**DATABASE\_ID**\>?v=\<view\_id\>
+      https://www.notion.so/<**DATABASE\_ID**>?v=<view_id>
 
 7. Esas dos claves serán necesarias para poder realizar operaciones CRUD sobre la base de datos que hemos creado en Notion. Deberá incluirlas en el main de este proyecto.
 
