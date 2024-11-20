@@ -62,7 +62,7 @@ Biblioteca para acceder a la API de Notion desde Java. Se ha incluido toda la bi
 
 Biblioteca Original: [Notion SDK](https://github.com/seratch/notion-sdk-jvm/tree/main)
 
-Revise el proyecto [notion-sdk-example](https://github.com/elloza/ProgramacionIII-Recursos/tree/main/notionsdkexample)de este repositorio para ver un ejemplo de uso y todos los requisitos necesarios para poder utilizar la API de Notion.
+Revise el proyecto [notion-sdk-example](https://github.com/elloza/ProgramacionIII-Recursos/tree/main/notionsdkexample) de este repositorio para ver un ejemplo de uso y todos los requisitos necesarios para poder utilizar la API de Notion.
 
 Descarga: [notion-sdk-jvm-core-1.11.1.jar](https://github.com/elloza/ProgramacionIII-Recursos/raw/main/jars/notion-sdk-jvm-core-1.11.1.jar)
 
