@@ -48,8 +48,7 @@ Debes extraer la información en formato JSON con los siguientes campos:
 Responde ÚNICAMENTE con el JSON, sin explicaciones adicionales y sin comentarios.
 ```
 
-
-Para la comunicación con LLMs desde Java se utiliza [Ollama4j Java](https://ollama4j.github.io/ollama4j/intro). Esto permite la conexión con múltiples modelos open source ofrecidos por ollama. En este ejemplo se utilizará un modelo de OpenAI llamado [Ollama-13B](https://huggingface.co/decapoda-research/ollama-13b).
+Para la comunicación con LLMs desde Java se utiliza [Ollama4j Java](https://ollama4j.github.io/ollama4j/intro). Esto permite la conexión con múltiples modelos open source ofrecidos por ollama. En este ejemplo se utilizará un modelo de META llamado [LLama3.2-3B](https://ollama.com/library/llama3.2).
 
 3. Se deberá asegurar la estructura del JSON obtenido en el paso 2. Por ejemplo:
 
