@@ -5,7 +5,7 @@ Se incluyen bibliotecas y ejemplos de código como apoyo para los ejercicios de 
 
 # Bibliotecas (JARs)
 
-Ya que en la asignatura se trabaja sin build tools (Maven, Gradle, etc.), se ofrecen las siguientes bibliotecas en formato JAR para su uso en los ejercicios.
+Ya que en la asignatura se trabaja sin build tools (Maven, Gradle, etc.), se ofrecen las siguientes bibliotecas en formato "shaded-JAR" (JAR con todas las dependencias) para su uso en los ejercicios.
 
 ## Biblioteca.jar
 
@@ -21,7 +21,7 @@ Documentación: [Javadoc](http://maxus.fis.usal.es/HOTHOUSE/p3/javadoc_com_coti_
 
 Clases interesantes para los ejercicios: Esdia, Rutas, OpMat y DiaUtil.
 
-## YoutubeMetadata.jar
+## YoutubeMetadata.jar (DEPRECATED - Ahora requiere login)
 
 Esta es una biblioteca que es simplemente un wrapper de la siguiente biblioteca y de todas sus dependencias:
 
