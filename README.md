@@ -73,7 +73,7 @@ Este jar se ha generado con fines educativos y para facilitar el uso de la API d
 
 Biblioteca para acceder a la API de Google Gen AI desde Java. Se ha incluido toda la biblioteca en un solo JAR para facilitar su uso en los ejercicios.
 
-Descarga: [google-gen-ai-java-sdk-wrapper.jar](https://github.com/elloza/ProgramacionIII-Recursos/raw/main/jars/genai-fatjar.1.0.0.jar)
+Descarga: [google-gen-ai-java-sdk-wrapper.jar](https://github.com/elloza/ProgramacionIII-Recursos/raw/main/jars/genai-fatjar-1.0.0.jar)
 
 Revise el proyecto [gemini-wrapper-example](https://github.com/elloza/ProgramacionIII-Recursos/tree/main/gemini-wrapper-example) de este repositorio para ver un ejemplo de uso y todos los requisitos necesarios para poder utilizar la API de Google Gen AI.
 
