@@ -68,7 +68,18 @@ Descarga: [notion-sdk-jvm-core-1.11.1.jar](https://github.com/elloza/Programacio
 
 Este jar se ha generado con fines educativos y para facilitar el uso de la API de Notion en los ejercicios de la asignatura. En un proyecto real, se recomienda añadir la dependencia a través de Maven o Gradle del repositorio original.
 
-# Otros recursos
+
+# Google Gen AI Java SDK Wrapper
+
+Biblioteca para acceder a la API de Google Gen AI desde Java. Se ha incluido toda la biblioteca en un solo JAR para facilitar su uso en los ejercicios.
+
+Descarga: [google-gen-ai-java-sdk-wrapper.jar](https://github.com/elloza/ProgramacionIII-Recursos/raw/main/jars/genai-fatjar.1.0.0.jar)
+
+Revise el proyecto [gemini-wrapper-example](https://github.com/elloza/ProgramacionIII-Recursos/tree/main/gemini-wrapper-example) de este repositorio para ver un ejemplo de uso y todos los requisitos necesarios para poder utilizar la API de Google Gen AI.
+
+Este jar se ha generado con fines educativos y para facilitar el uso de la API de Google Gen AI en los ejercicios de la asignatura. En un proyecto real, se recomienda añadir la dependencia a través de Maven o Gradle del [repositorio original](https://github.com/googleapis/java-genai).
+
+# Otros recursos para la asignatura
 
 ## Java Source Code 2 PlantUML
 
