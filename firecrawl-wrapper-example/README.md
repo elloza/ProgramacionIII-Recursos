@@ -23,7 +23,7 @@ La aplicación debe mostrar un menú con las siguientes opciones:
 - Pedir al usuario una URL
 - Usar `FirecrawlWrapper.fetchMarkdown(url)` para obtener el contenido
 - Usar `FirecrawlWrapper.guessTitle(markdown, url)` para generar un título
-- Crear un `PageDoc` y almacenarlo en el HashMap
+- Crear un `PageDoc` y almacenarlo en el HashMap. Alternativamente a PageDoc es posible utilizar otra clase propia que implemente la misma funcionalidad.
 - Manejar excepciones apropiadamente
 
 ### 2. Leer (mostrar) por URL
@@ -33,7 +33,6 @@ La aplicación debe mostrar un menú con las siguientes opciones:
 
 ### 3. Listar todos
 - Mostrar todos los documentos en formato tabla
-- Usar `TablePrinter.print()` para el formato
 - Columnas: URL, Título, Número de palabras
 
 ### 4. Borrar por URL
