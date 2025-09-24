@@ -79,6 +79,18 @@ Revise el proyecto [gemini-wrapper-example](https://github.com/elloza/Programaci
 
 Este jar se ha generado con fines educativos y para facilitar el uso de la API de Google Gen AI en los ejercicios de la asignatura. En un proyecto real, se recomienda añadir la dependencia a través de Maven o Gradle del [repositorio original](https://github.com/googleapis/java-genai).
 
+
+## Firecrawl SDK wrapper
+
+Biblioteca para acceder a la API de Firecrawl desde Java. Se ha incluido toda la biblioteca en un solo JAR para facilitar su uso en los ejercicios.
+
+Descarga: [firecrawl-java-sdk-wrapper.jar](https://github.com/elloza/ProgramacionIII-Recursos/raw/main/jars/firecrawl4j-1.0.jar)
+
+Revise el proyecto [firecrawl-wrapper-example](https://github.com/elloza/ProgramacionIII-Recursos/tree/main/firecrawl-wrapper-example) de este repositorio para ver un ejemplo de uso y todos los requisitos necesarios para poder utilizar la API de Firecrawl.
+
+Este jar se ha generado con fines educativos y para facilitar el uso de la API de Firecrawl en los ejercicios de la asignatura. En un proyecto real, se recomienda añadir la dependencia a través de Maven o Gradle del [repositorio original](https://github.com/firecrawl/firecrawl-java-sdk).
+
+
 # Otros recursos para la asignatura
 
 ## Java Source Code 2 PlantUML
