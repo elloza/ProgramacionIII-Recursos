@@ -21,40 +21,6 @@ Documentación: [Javadoc](http://maxus.fis.usal.es/HOTHOUSE/p3/javadoc_com_coti_
 
 Clases interesantes para los ejercicios: Esdia, Rutas, OpMat y DiaUtil.
 
-## YoutubeMetadata.jar (DEPRECATED - Ahora requiere login)
-
-Esta es una biblioteca que es simplemente un wrapper de la siguiente biblioteca y de todas sus dependencias:
-
-[sealedtx/java-youtube-downloader](https://github.com/sealedtx/java-youtube-downloader)
-
-Se ha incluido toda la biblioteca en un solo JAR para facilitar su uso en los ejercicios. Se trata de una biblioteca para usos educativos, que permite obtener metadatos de vídeos de YouTube. No se debe emplear para usos que vayan en contra de los [Terms of Service - II. Prohibitions](https://developers.google.com/youtube/terms/api-services-terms-of-service) de Youtube. Desde la asignatura se recomienda el uso de esta biblioteca para obtener metadatos de vídeos de YouTube con fines educativos.
-
-Descarga: [YoutubeMetadata.jar](https://github.com/elloza/ProgramacionIII-Recursos/raw/main/jars/YoutubeMetadata.jar)
-
-**Ejemplo de uso**:
-
-```java
-import com.elloza.youtubemetadata.VideoInfoExtractor;
-import com.github.kiulian.downloader.model.videos.VideoInfo;
-
-public class App {
-    public static void main(String[] args) throws Exception {
-        // URL del vídeo de YouTube
-        String url = "https://www.youtube.com/watch?v=6iRLDa0LQNM";
-        try {
-            VideoInfo videoInfo = VideoInfoExtractor.getVideoInfoFromUrl(url);
-            System.out.println("Title: " + videoInfo.details().title());
-            System.out.println("Views: " + videoInfo.details().viewCount());
-            System.out.println("Author: " + videoInfo.details().author());
-            System.out.println("Keywords: " + videoInfo.details().keywords());
-            System.out.println("Description: " + videoInfo.details().description());
-            System.out.println("Duration: " + videoInfo.details().lengthSeconds() + " seconds");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
-```
 
 ## Notion SDK Java
 
@@ -90,6 +56,41 @@ Revise el proyecto [firecrawl-wrapper-example](https://github.com/elloza/Program
 
 Este jar se ha generado con fines educativos y para facilitar el uso de la API de Firecrawl en los ejercicios de la asignatura. En un proyecto real, se recomienda añadir la dependencia a través de Maven o Gradle del [repositorio original](https://github.com/firecrawl/firecrawl-java-sdk).
 
+
+## YoutubeMetadata.jar (DEPRECATED - Ahora requiere login)
+
+Esta es una biblioteca que es simplemente un wrapper de la siguiente biblioteca y de todas sus dependencias:
+
+[sealedtx/java-youtube-downloader](https://github.com/sealedtx/java-youtube-downloader)
+
+Se ha incluido toda la biblioteca en un solo JAR para facilitar su uso en los ejercicios. Se trata de una biblioteca para usos educativos, que permite obtener metadatos de vídeos de YouTube. No se debe emplear para usos que vayan en contra de los [Terms of Service - II. Prohibitions](https://developers.google.com/youtube/terms/api-services-terms-of-service) de Youtube. Desde la asignatura se recomienda el uso de esta biblioteca para obtener metadatos de vídeos de YouTube con fines educativos.
+
+Descarga: [YoutubeMetadata.jar](https://github.com/elloza/ProgramacionIII-Recursos/raw/main/jars/YoutubeMetadata.jar)
+
+**Ejemplo de uso**:
+
+```java
+import com.elloza.youtubemetadata.VideoInfoExtractor;
+import com.github.kiulian.downloader.model.videos.VideoInfo;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        // URL del vídeo de YouTube
+        String url = "https://www.youtube.com/watch?v=6iRLDa0LQNM";
+        try {
+            VideoInfo videoInfo = VideoInfoExtractor.getVideoInfoFromUrl(url);
+            System.out.println("Title: " + videoInfo.details().title());
+            System.out.println("Views: " + videoInfo.details().viewCount());
+            System.out.println("Author: " + videoInfo.details().author());
+            System.out.println("Keywords: " + videoInfo.details().keywords());
+            System.out.println("Description: " + videoInfo.details().description());
+            System.out.println("Duration: " + videoInfo.details().lengthSeconds() + " seconds");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
 
 # Otros recursos para la asignatura
 
