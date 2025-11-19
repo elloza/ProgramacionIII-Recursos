@@ -34,6 +34,15 @@ public class App {
         System.out.println("Esta demostración incluye TODOS los casos de uso disponibles");
         System.out.println();
 
+        // OPCIONES PARA CREAR EL CLIENTE GENAI
+
+        // Opción A: Usar API Key directamente (no recomendado para producción)
+        // Nunca dejar la API Key hardcodeada en el código fuente en proyectos reales
+        String apiKey = "tu-api-key-aqui"; // Reemplaza con tu API Key real
+        GenAiConfig config = GenAiConfig.fromApiKey("gemini-2.0-flash", apiKey);
+
+        // Opción B: Usar variable de entorno 
+
         // Debemos tener la variable de entorno GOOGLE_API_KEY configurada
         // Ejemplo PS: setx GOOGLE_API_KEY "tu-api-key-aqui"
         // Ejemplo CMD: env GOOGLE_API_KEY="tu-api-key-aqui"G
@@ -42,8 +51,9 @@ public class App {
         // Obtener la API Key --> https://aistudio.google.com/app/apikey
 
         // Leer desde java la variable de entorno y mostrarla
-        String apiKey = System.getenv("GOOGLE_API_KEY");
-        System.out.println("API Key: " + (apiKey != null ? "Configurada" : "No configurada"));
+        // String apiKey = System.getenv("GOOGLE_API_KEY");
+        // GenAiConfig config = GenAiConfig.fromEnv("gemini-2.0-flash");
+        // System.out.println("API Key: " + (apiKey != null ? "Configurada" : "No configurada"));
         
         // Configurar logging (opcional - descomenta lo que prefieras)
         GenAiConfig.setSilentMode();        // Sin logs (recomendado)
@@ -51,7 +61,6 @@ public class App {
         
         try {
             // Configuración usando variable de entorno
-            GenAiConfig config = GenAiConfig.fromEnv("gemini-2.0-flash");
             System.out.println("✅ Configuración cargada - Modelo: " + config.model());
             
             try (GenAiFacade genai = new GenAiFacade(config)) {
