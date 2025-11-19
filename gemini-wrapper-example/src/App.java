@@ -39,7 +39,7 @@ public class App {
         // Opción A: Usar API Key directamente (no recomendado para producción)
         // Nunca dejar la API Key hardcodeada en el código fuente en proyectos reales
         String apiKey = "tu-api-key-aqui"; // Reemplaza con tu API Key real
-        GenAiConfig config = GenAiConfig.fromApiKey("gemini-2.0-flash", apiKey);
+        GenAiConfig config = GenAiConfig.forGemini("gemini-2.0-flash", apiKey);
 
         // Opción B: Usar variable de entorno 
 
