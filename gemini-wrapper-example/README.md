@@ -170,9 +170,10 @@ GenAiConfig.setDevelopmentMode();   // Solo warnings/errores
 ```
 
 ### Modelos Disponibles
-- `gemini-2.0-flash` (recomendado)
-- `gemini-1.5-pro`
-- `gemini-1.5-flash`
+
+Consultadlos aquí: [Modelos Gemini](https://ai.google.dev/gemini-api/docs/models?hl=es-419)
+- `gemini-2.5-flash` (recomendado)
+- `gemini-flash-latest`
 
 ## 🎓 Uso Educativo
 
