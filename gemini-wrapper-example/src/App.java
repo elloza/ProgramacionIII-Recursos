@@ -52,7 +52,7 @@ public class App {
 
         // Leer desde java la variable de entorno y mostrarla
         // String apiKey = System.getenv("GOOGLE_API_KEY");
-        // GenAiConfig config = GenAiConfig.fromEnv("gemini-2.0-flash");
+        // GenAiConfig config = GenAiConfig.fromEnv("gemini-2.5-flash");
         // System.out.println("API Key: " + (apiKey != null ? "Configurada" : "No configurada"));
         
         // Configurar logging (opcional - descomenta lo que prefieras)

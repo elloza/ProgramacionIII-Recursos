@@ -125,7 +125,7 @@ gemini-wrapper-example/
 import es.usal.genai.*;
 
 // Configuración desde variable de entorno
-GenAiConfig config = GenAiConfig.fromEnv("gemini-2.0-flash");
+GenAiConfig config = GenAiConfig.fromEnv("gemini-2.5-flash");
 
 try (GenAiFacade genai = new GenAiFacade(config)) {
     // Tu código aquí
@@ -137,7 +137,7 @@ try (GenAiFacade genai = new GenAiFacade(config)) {
 public class MiProyecto {
     public static void main(String[] args) {
         GenAiConfig.setSilentMode(); // Sin logs
-        GenAiConfig config = GenAiConfig.fromEnv("gemini-2.0-flash");
+        GenAiConfig config = GenAiConfig.fromEnv("gemini-2.5-flash");
         
         try (GenAiFacade genai = new GenAiFacade(config)) {
             String respuesta = genai.generateText("¿Qué es Java?");
